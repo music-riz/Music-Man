@@ -208,7 +208,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)
     else:
-        await message.reply("**Silahkan Nyalakan dulu VCG nya!**")
+        await message.reply("**Tolol Nyalakan dulu VCG nya!**")
 
 
 @Client.on_message(filters.command("player") & filters.group & ~filters.edited)
@@ -229,7 +229,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("**Silahkan Nyalakan dulu VCG nya!**")
+        await message.reply("**Tolol Nyalakan dulu VCG nya!**")
 
 
 @Client.on_message(
