@@ -48,8 +48,8 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Mencari Lagu Yang ingin di Putar atau di Download.
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
-❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
+❃ Managed With By {OWNER}
+
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -147,7 +147,7 @@ def map(pos):
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ **Apakah Anda ingin mencari Link YouTube?**",
+        "💁🏻‍♂️ **Gabut ya?**",
         reply_markup=InlineKeyboardMarkup(
             [   
                 [    
@@ -171,7 +171,7 @@ async def ghelp(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url=f"https://t.me/{BOT_USERNAME}?start"
+                        "📜 Baca baik baik ya ngentod 📜", url=f"https://t.me/{BOT_USERNAME}?start"
                     )
                 ]
             ]
